@@ -1,0 +1,970 @@
+<div class="container-fluid mb-4 position-relative">
+	<div class="row">
+		<div class="container py-2">
+			<div class="row page-title-row">
+				<div class="col-sm-12 col-md-6">
+					<h2 class="page-title">Dashboard</h2>
+					<p class="text-secondary">Start with HTML Start kit with very
+						basic elements on page</p>
+				</div>
+				<div class="col-sm-12 col-md-6 text-right align-self-center">
+					<button type="button" class="btn btn-success" data-toggle="tooltip"
+						title="Buy Now!">
+						<i class="fa fa-shopping-cart"></i>
+					</button>
+					<button type="button" class="btn btn-primary ml-2"
+						data-toggle="tooltip" title="Setting" id="theme-setting">
+						<i class="fa fa-cogs"></i>
+					</button>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+<div class="container">
+<ngb-carousel> <ng-template ngbSlide
+				*ngFor="let slider of sliders"> <img
+				class="img-fluid mx-auto d-block" [src]="slider.imagePath"
+				alt="Random first slide" width="100%">
+			<div class="carousel-caption">
+				<h3>{{slider.label}}</h3>
+				<p>{{slider.text}}</p>
+			</div>
+			</ng-template> </ngb-carousel>
+
+<div class="row no-gutters">
+	<div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+		<div class="card mb-4 border-0 rounded-0">
+			<div class="card-body">
+				<div class="media mt-2">
+					<div class="media-body">
+						<h4>$785155</h4>
+						<p class="text-uppercase">Total Profit</p>
+					</div>
+					<span class="icon fa fa-cubes"></span>
+				</div>
+				
+				<div class="progress progress-sm rounded-0 bottom ">
+					<div class="progress-bar bg-secondary" role="progressbar"
+						style="width: 75%" aria-valuenow="25" aria-valuemin="0"
+						aria-valuemax="100"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 border-left  mb-4">
+		<div class="card border-0 rounded-0">
+			<div class="card-body">
+				<div class="media mt-2">
+					<div class="media-body">
+						<h4>385155</h4>
+						<p class="text-uppercase">Active Users</p>
+					</div>
+					<span class="icon fa fa-users"></span>
+				</div>
+				
+				<div class="progress progress-sm rounded-0 bottom ">
+					<div class="progress-bar bg-secondary" role="progressbar"
+						style="width: 75%" aria-valuenow="25" aria-valuemin="0"
+						aria-valuemax="100"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 border-left  mb-4">
+		<div class="card border-0 rounded-0">
+			<div class="card-body">
+				<div class="media mt-2">
+					<div class="media-body">
+						<h4>12345</h4>
+						<p class="text-uppercase">New Orders</p>
+					</div>
+					<span class="icon fa fa-cart-arrow-down"></span>
+				</div>
+				
+				<div class="progress progress-sm rounded-0 bottom ">
+					<div class="progress-bar bg-secondary" role="progressbar"
+						style="width: 75%" aria-valuenow="25" aria-valuemin="0"
+						aria-valuemax="100"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 border-left  mb-4">
+		<div class="card border-0 rounded-0">
+			<div class="card-body">
+				<div class="media mt-2">
+					<div class="media-body">
+						<h4>48</h4>
+						<p class="text-uppercase">New Feedback</p>
+					</div>
+					<span class="icon fa fa-comments"></span>
+				</div>
+				
+				<div class="progress progress-sm rounded-0 bottom ">
+					<div class="progress-bar bg-secondary" role="progressbar"
+						style="width: 75%" aria-valuenow="25" aria-valuemin="0"
+						aria-valuemax="100"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-12 col-md-6 col-lg-8">
+		<div class="row no-gutters  mb-4">
+			<div class="col-sm-12 col-md-6">
+				<div class="card rounded-0 border-0">
+					<div class="card-body ">
+						<div class="media">
+							<div class="media-body mt-0">
+								<h4 class="mt-0">Maxi Johnsons</h4>
+								<p>
+									<i class="fa fa-building-o"></i> VP, Maxartkiller Co. Ltd.,
+									India
+								</p>
+								<h5 class="text-warning mb-3">
+									<i class="fa fa-star"></i> <i class="fa fa-star"></i> <i
+										class="fa fa-star"></i> <i class="fa fa-star"></i> <i
+										class="fa fa-star-half-o"></i>
+								</h5>
+								<div class="mb-0 lead">Bootstrap template design is HTML
+									template based on Bootstrap 4 framework. This html template can
+									be used in various business domains like Manufacturing,
+									inventory, IT, administration etc.</div>
+								<br>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-6">
+				<figure class="full-screen-background">
+					<img src="assets/img/testimonial3.jpg" alt="">
+				</figure>
+			</div>
+		</div>
+	</div>
+	<div class="col-sm-12 col-md-6 col-lg-4">
+		<div class="card rounded-0 border-0 mb-4 gradient-warning">
+			<div class="card-body px-5 py-4">
+				<h3 class="f-light mb-3">Your phone number?</h3>
+				<div class="row">
+					<div class="col-12 w-100">
+						<label>Phone Number</label>
+					</div>
+					<div class="col-3">
+						<div class="form-group float-label">
+							<input type="text" class="form-control active" value="+91">
+						</div>
+					</div>
+					<div class="col-9">
+						<div class="form-group float-label">
+							<input type="text" class="form-control active"
+								value="000 000 0000">
+						</div>
+					</div>
+				</div>
+				<div class="text-center">
+					<button class="btn btn-light text-warning z3 btn-rounded px-4">Lets
+						go!</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="col-12 col-md-6 col-lg-4 storyline left mb-4">
+		<div class="story-block ">
+			<span class="timeline-bubble bg-success"></span>
+			<div class="card border-0 rounded-0 mb-4 ">
+				<div class="card-body">
+					<div class="media">
+						<div class="media-body">
+							<h4 class="f-light">3 January 2018</h4>
+							<p>Ananta Theaters</p>
+							Great show will be begin at in the show. All characters are so
+							funny and entertainers Must visit and watch it.
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="story-block ">
+			<span class="timeline-bubble bg-danger"></span>
+			<div class="card border-0 rounded-0 mb-4">
+				<div class="card-body">
+					<div class="media">
+						<div class="media-body">
+							<h4 class="f-light">3 January 2018</h4>
+							<p>Ananta Theaters</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="story-block">
+			<span class="timeline-bubble bg-warning"></span>
+			<div class="card border-0 rounded-0 mb-4  gradient-warning ">
+				<div class="card-body">
+					<div class="media">
+						<div class="media-body">
+							<h4 class="f-light">3 January 2018</h4>
+							<p>Ananta Theaters</p>
+							Great show will be begin at in the show. All characters are so
+							funny.
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="story-block">
+			<span class="timeline-bubble bg-success"></span>
+			<div class="card border-0 rounded-0 mb-4 bg-success">
+				<div class="card-body">
+					<div class="media">
+						<div class="media-body">
+							<h4 class="f-light">3 January 2018</h4>
+							<p>Ananta Theaters</p>
+							Great show will be begin at in the show. Allcharacters are so
+							funny and entertainers Must visit and watch it. <br> <br>
+							<a href="http://maxartkiller.in" target="_blank"
+								class="btn btn-outline-light">Visit Gallery</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-sm-12 col-md-12 col-lg-4">
+		<div class="card rounded-0 border-0 mb-4">
+			<div class="card-header">
+				<div class="row">
+					<div class="col-6">
+						<h5 class="card-title">User List tab</h5>
+					</div>
+					<div class="col text-right">
+						<!-- <div class="dropdown float-left" ngbDropdown>
+									<a href="#" class="btn btn-link text-dark user-profile">
+										<figure class="avatar30 rounded-circle z3"><img src="assets/img/user1.png" alt=""></figure>
+										<div class="h5 d-inline-block"><small>Welcome,</small><span>Maxartkiller</span></div>
+									</a>
+				                <button class="btn btn-secondary sq-btn rounded-0 dropdown-toggle float-right" ngbDropdownToggle>
+				                    <span class="fa fa-angle-down"></span>
+				                </button>
+				                <div class="dropdown-menu dropdown-menu-right" ngbDropdownMenu>
+				                	<a class="dropdown-item" href="#">Profile</a>
+									<a class="dropdown-item" href="#">Setting</a>
+									<a class="dropdown-item">Logot</a>
+				                </div>
+				            </div>	 -->	
+					</div>
+				</div>
+			</div>
+			<div class="card-body p-0">
+				<table class="table mb-0">
+							<tbody>
+								<tr>
+									<td>
+										<div class="media">
+											<figure class="avatar60 rounded-circle align-self-start">
+												<img src="assets/img/user2.png"
+													alt="Generic placeholder image">
+											</figure>
+											<div class="media-body">
+												<h5 class="time-title p-0">John Smith</h5>
+												New Jersey, UK
+											</div>
+										</div>
+									</td>
+									<td class="text-right"><span class="text-success">Completed</span></td>
+								</tr>
+								<tr>
+									<td>
+										<div class="media">
+											<figure class="avatar60 rounded-circle align-self-start">
+												<img src="assets/img/user3.png"
+													alt="Generic placeholder image">
+											</figure>
+											<div class="media-body">
+												<h5 class="time-title p-0">Janelia D'souza</h5>
+												New Jersey, UK
+											</div>
+										</div>
+									</td>
+									<td class="text-right"><span class="text-primary">In-progress</span></td>
+								</tr>
+								<tr>
+									<td>
+										<div class="media">
+											<figure class="avatar60 rounded-circle align-self-start">
+												<img src="assets/img/user5.png"
+													alt="Generic placeholder image">
+											</figure>
+											<div class="media-body">
+												<h5 class="time-title p-0">Astha Johnson</h5>
+												New Jersey, UK
+											</div>
+										</div>
+									</td>
+									<td class="text-right"><span class="text-danger">Closed</span></td>
+								</tr>
+								<tr>
+									<td>
+										<div class="media">
+											<figure class="avatar60 rounded-circle align-self-start">
+												<img src="assets/img/user1.png"
+													alt="Generic placeholder image">
+											</figure>
+											<div class="media-body">
+												<h5 class="time-title p-0">Maxartkiller</h5>
+												New Jersey, UK
+											</div>
+										</div>
+									</td>
+									<td class="text-right"><span class="text-warning">Pending</span></td>
+								</tr>
+								<tr>
+									<td>
+										<div class="media">
+											<figure class="avatar60 rounded-circle align-self-start">
+												<img src="assets/img/user2.png"
+													alt="Generic placeholder image">
+											</figure>
+											<div class="media-body">
+												<h5 class="time-title p-0">John Smith</h5>
+												New Jersey, UK
+											</div>
+										</div>
+									</td>
+									<td class="text-right"><span class="text-success">Completed</span></td>
+								</tr>
+								<tr>
+									<td>
+										<div class="media">
+											<figure class="avatar60 rounded-circle align-self-start">
+												<img src="assets/img/user3.png"
+													alt="Generic placeholder image">
+											</figure>
+											<div class="media-body">
+												<h5 class="time-title p-0">Janelia D'souza</h5>
+												New Jersey, UK
+											</div>
+										</div>
+									</td>
+									<td class="text-right"><span class="text-primary">In-progress</span></td>
+								</tr>
+								<tr>
+									<td>
+										<div class="media">
+											<figure class="avatar60 rounded-circle align-self-start">
+												<img src="assets/img/user5.png"
+													alt="Generic placeholder image">
+											</figure>
+											<div class="media-body">
+												<h5 class="time-title p-0">Astha Johnson</h5>
+												New Jersey, UK
+											</div>
+										</div>
+									</td>
+									<td class="text-right"><span class="text-danger">Closed</span></td>
+								</tr>
+							</tbody>
+						</table>		
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-md-6 col-lg-4">
+		<div class="card border-0 rounded-0 mb-4">
+			<div class="card-header border-bottom">
+				<div class="row">
+					<div class="col-6">
+						<h5 class="card-title">Chat</h5>
+					</div>
+					<div class="col text-right">
+						<div class="">
+							<button
+								class="btn btn-link btn-sm text-secondary rounded-0 dropdown-toggle float-right icon"
+								data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"
+								type="button">
+								<i class="fa fa-ellipsis-v"></i>
+							</button>							
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card-body p-0 scroll-y" style="height: 560px; overflow-y:auto">
+				<div class="list-unstyled userlist chat-list">
+					<div class="item">
+						<div class="media">
+							<figure class="avatar36 rounded-circle z2 align-self-start mr-3">
+								<img src="assets/img/user2.png"
+									alt="Generic placeholder image">
+							</figure>
+							<div class="media-body">
+								<h5 class="time-title">
+									John Doe <small class="float-right">1 min ago</small>
+								</h5>
+								Sent a message
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="media">
+							<figure class="avatar36 rounded-circle z2 align-self-start mr-3">
+								<img src="assets/img/user3.png"
+									alt="Generic placeholder image">
+							</figure>
+							<div class="media-body">
+								<h5 class="time-title">
+									<span class="circle-dot bg-warning"></span>Astha Anwar <small
+										class="float-right">1 min ago</small>
+								</h5>
+								Sent a message
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="media">
+							<figure class="avatar36 rounded-circle z2 align-self-start mr-3">
+								<img src="assets/img/user1.png"
+									alt="Generic placeholder image">
+							</figure>
+							<div class="media-body">
+								<h5 class="time-title">
+									<span class="circle-dot bg-danger"></span>Maxartkiller <small
+										class="float-right">1 min ago</small>
+								</h5>
+								Sent a message
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="media">
+							<figure class="avatar36 rounded-circle z2 align-self-start mr-3">
+								<img src="assets/img/user4.png"
+									alt="Generic placeholder image">
+							</figure>
+							<div class="media-body">
+								<h5 class="time-title">
+									<span class="circle-dot bg-success"></span>Tommy Bayoth <small
+										class="float-right">1 hour ago</small>
+								</h5>
+								Sent a message
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="media">
+							<figure class="avatar36 rounded-circle z2 align-self-start mr-3">
+								<img src="assets/img/user1.png"
+									alt="Generic placeholder image">
+							</figure>
+							<div class="media-body">
+								<h5 class="time-title">
+									<span class="circle-dot bg-danger"></span>Maxartkiller <small
+										class="float-right">1 min ago</small>
+								</h5>
+								Sent a message
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="media">
+							<figure class="avatar36 rounded-circle z2 align-self-start mr-3">
+								<img src="assets/img/user4.png"
+									alt="Generic placeholder image">
+							</figure>
+							<div class="media-body">
+								<h5 class="time-title">
+									<span class="circle-dot bg-success"></span>Tommy Bayoth <small
+										class="float-right">1 hour ago</small>
+								</h5>
+								Sent a message
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="media">
+							<figure class="avatar36 rounded-circle z2 align-self-start mr-3">
+								<img src="assets/img/user2.png"
+									alt="Generic placeholder image">
+							</figure>
+							<div class="media-body">
+								<h5 class="time-title">
+									John Doe <small class="float-right">1 min ago</small>
+								</h5>
+								Sent a message
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="media">
+							<figure class="avatar36 rounded-circle z2 align-self-start mr-3">
+								<img src="assets/img/user3.png"
+									alt="Generic placeholder image">
+							</figure>
+							<div class="media-body">
+								<h5 class="time-title">
+									<span class="circle-dot bg-warning"></span>Astha Anwar <small
+										class="float-right">1 min ago</small>
+								</h5>
+								Sent a message
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="media">
+							<figure class="avatar36 rounded-circle z2 align-self-start mr-3">
+								<img src="assets/img/user1.png"
+									alt="Generic placeholder image">
+							</figure>
+							<div class="media-body">
+								<h5 class="time-title">
+									<span class="circle-dot bg-danger"></span>Maxartkiller <small
+										class="float-right">1 min ago</small>
+								</h5>
+								Sent a message
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="media">
+							<figure class="avatar36 rounded-circle z2 align-self-start mr-3">
+								<img src="assets/img/user4.png"
+									alt="Generic placeholder image">
+							</figure>
+							<div class="media-body">
+								<h5 class="time-title">
+									<span class="circle-dot bg-success"></span>Tommy Bayoth <small
+										class="float-right">1 hour ago</small>
+								</h5>
+								Sent a message
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="media">
+							<figure class="avatar36 rounded-circle z2 align-self-start mr-3">
+								<img src="assets/img/user1.png"
+									alt="Generic placeholder image">
+							</figure>
+							<div class="media-body">
+								<h5 class="time-title">
+									<span class="circle-dot bg-danger"></span>Maxartkiller <small
+										class="float-right">1 min ago</small>
+								</h5>
+								Sent a message
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="media">
+							<figure class="avatar36 rounded-circle z2 align-self-start mr-3">
+								<img src="assets/img/user4.png"
+									alt="Generic placeholder image">
+							</figure>
+							<div class="media-body">
+								<h5 class="time-title">
+									<span class="circle-dot bg-success"></span>Tommy Bayoth <small
+										class="float-right">1 hour ago</small>
+								</h5>
+								Sent a message
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card chat-overlay z3 border-0 rounded-0">
+				<div class="card-header overlay border-bottom">
+					<div class="row">
+						<button class="btn btn-link text-dark backbtn">
+							<i class="fa fa-arrow-left"></i>
+						</button>
+						<div class="col">
+							<div class="media media-sm">
+								<figure class="avatar36 rounded-circle">
+									<img src="assets/img/user1.png" alt="user image">
+								</figure>
+								<div class="media-body text-left">
+									<h4 class="mb-0">Maxartkiller</h4>
+									Typing...
+								</div>
+							</div>
+						</div>
+						<div class="text-right mr-2">
+							<div class="dropdown">
+								<button
+									class="btn btn-link btn-sm text-secondary rounded-0 dropdown-toggle float-right icon"
+									data-toggle="dropdown" aria-haspopup="true"
+									aria-expanded="true" type="button">
+									<i class="fa fa-ellipsis-v"></i>
+								</button>
+								<div class="dropdown-menu dropdown-menu-right">
+
+									<a class="dropdown-item" href="#"><i
+										class="fa fa-exclamation-circle text-secondary"></i> Report</a> <a
+										class="dropdown-item" href="#"><i
+										class="fa fa-cog text-secondary"></i> Setting</a> <a
+										class="dropdown-item" href="#"><i
+										class="fa fa-trash text-secondary"></i> Remove this</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card-body p-0 scroll-y">
+					<ul class="chat">
+						<li class="left clearfix">
+							<figure class="chat-img avatar36 rounded-circle">
+								<img src="assets/img/user4.png" alt="User Avatar"
+									class="img-circle">
+							</figure>
+							<div class="chat-body rounded clearfix bg-primary">
+								<div class="header">
+									<strong class="primary-font">Maxartkiller</strong> <small
+										class="pull-right text-muted"> <i
+										class="fa fa-clock-o fa-fw"></i> 12 mins ago
+									</small>
+								</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									Curabitur bibendum ornare dolor, quis ullamcorper ligula
+									sodales.</p>
+							</div>
+						</li>
+						<li class="right clearfix">
+							<figure class="chat-img avatar36 rounded-circle">
+								<img src="assets/img/user1.png" alt="User Avatar"
+									class="img-circle">
+							</figure>
+							<div class="chat-body rounded clearfix">
+								<div class="header">
+									<small class=" text-muted"> <i
+										class="fa fa-clock-o fa-fw"></i> 13 mins ago
+									</small> <strong class="pull-right primary-font">You</strong>
+								</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									Curabitur bibendum ornare dolor, quis ullamcorper ligula
+									sodales.</p>
+							</div>
+						</li>
+						<li class="left clearfix">
+							<figure class="chat-img avatar36 rounded-circle">
+								<img src="assets/img/user4.png" alt="User Avatar"
+									class="img-circle">
+							</figure>
+							<div class="chat-body rounded clearfix bg-primary">
+								<div class="header">
+									<strong class="primary-font">Maxartkiller</strong> <small
+										class="pull-right text-muted"> <i
+										class="fa fa-clock-o fa-fw"></i> 14 mins ago
+									</small>
+								</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									Curabitur bibendum ornare dolor, quis ullamcorper ligula
+									sodales.</p>
+							</div>
+						</li>
+						<li class="right clearfix">
+							<figure class="chat-img avatar36 rounded-circle">
+								<img src="assets/img/user1.png" alt="User Avatar"
+									class="img-circle">
+							</figure>
+							<div class="chat-body rounded clearfix">
+								<div class="header">
+									<small class=" text-muted"> <i
+										class="fa fa-clock-o fa-fw"></i> 15 mins ago
+									</small> <strong class="pull-right primary-font">You</strong>
+								</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									Curabitur bibendum ornare dolor, quis ullamcorper ligula
+									sodales.</p>
+							</div>
+						</li>
+						<li class="left clearfix">
+							<figure class="chat-img avatar36 rounded-circle">
+								<img src="assets/img/user4.png" alt="User Avatar"
+									class="img-circle">
+							</figure>
+							<div class="chat-body rounded clearfix bg-primary">
+								<div class="header">
+									<strong class="primary-font">Maxartkiller</strong> <small
+										class="pull-right text-muted"> <i
+										class="fa fa-clock-o fa-fw"></i> 12 mins ago
+									</small>
+								</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									Curabitur bibendum ornare dolor, quis ullamcorper ligula
+									sodales.</p>
+							</div>
+						</li>
+						<li class="right clearfix">
+							<figure class="chat-img avatar36 rounded-circle">
+								<img src="assets/img/user1.png" alt="User Avatar"
+									class="img-circle">
+							</figure>
+							<div class="chat-body rounded clearfix">
+								<div class="header">
+									<small class=" text-muted"> <i
+										class="fa fa-clock-o fa-fw"></i> 13 mins ago
+									</small> <strong class="pull-right primary-font">You</strong>
+								</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									Curabitur bibendum ornare dolor, quis ullamcorper ligula
+									sodales.</p>
+							</div>
+						</li>
+						<li class="left clearfix">
+							<figure class="chat-img avatar36 rounded-circle">
+								<img src="assets/img/user4.png" alt="User Avatar"
+									class="img-circle">
+							</figure>
+							<div class="chat-body rounded-1 clearfix bg-primary">
+								<div class="header">
+									<strong class="primary-font">Maxartkiller</strong> <small
+										class="pull-right text-muted"> <i
+										class="fa fa-clock-o fa-fw"></i> 14 mins ago
+									</small>
+								</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									Curabitur bibendum ornare dolor, quis ullamcorper ligula
+									sodales.</p>
+							</div>
+						</li>
+						<li class="right clearfix">
+							<figure class="chat-img avatar36 rounded-circle">
+								<img src="assets/img/user1.png" alt="User Avatar"
+									class="img-circle">
+							</figure>
+							<div class="chat-body rounded clearfix">
+								<div class="header">
+									<small class=" text-muted"> <i
+										class="fa fa-clock-o fa-fw"></i> 15 mins ago
+									</small> <strong class="pull-right primary-font">You</strong>
+								</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									Curabitur bibendum ornare dolor, quis ullamcorper ligula
+									sodales.</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="card-footer overlay border-top">
+					<div class="form-group text-left mb-0">
+						<div class="input-group ">
+							<div class="input-group-prepend">
+								<button class="input-group-text">
+									<i class="fa fa-smile-o"></i>
+								</button>
+							</div>
+							<input type="text" class="form-control"
+								placeholder="Enter Message...">
+							<div class="input-group-prepend">
+								<button class="input-group-text" id="basic-addon2">
+									<i class="fa fa-image"></i>
+								</button>
+							</div>
+							<div class="input-group-prepend">
+								<button class="input-group-text">
+									<i class="fa fa-paper-plane-o"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="col-12 col-md-6 col-lg-4">
+		<div class="card rounded-0 border-0 mb-4">
+			<div class="w-100 ">
+				<figure class="m-0 w-100">
+					<img src="assets/img/event1.png" alt="user image">
+				</figure>
+			</div>
+			<div class="card-header bg-primary">
+				<div class="row m-0">
+					<div class="">
+						<div class="media">
+							<div class="media-body">
+								<h4 class="f-light">25</h4>
+								<p class="mb-0">Mar</p>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="media">
+							<div class="media-body">
+								<h4 class="f-light">College Meetup</h4>
+								<p class="mb-0">
+									<i class="fa fa-map-marker"></i> New york, USA | 1256 Attendees
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card-body p-3">
+				<p class="f-sm text-secondary">Bootstrap template design is HTML
+					template based on Bootstrap 4 framework. This html template can be
+					used in various business domains like Manufacturing, inventory, IT,
+					administration etc.</p>
+			</div>
+			<div class="card-footer text-right border-0">
+				<img src="assets/img/logo_full_black.png" alt=""
+					class="float-left">
+				<button type="button" class="btn btn-success">Join Now!</button>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-md-6 col-lg-4">
+		<div class="card rounded-0 border-0 mb-4">
+			<div class="w-100 ">
+				<figure class="m-0 w-100">
+					<img src="assets/img/event2.png" alt="user image">
+				</figure>
+			</div>
+			<div class="card-header gradient-success">
+				<div class="row m-0">
+					<div class="">
+						<div class="media">
+							<div class="media-body">
+								<h4 class="f-light">25</h4>
+								<p class="mb-0">Mar</p>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="media">
+							<div class="media-body">
+								<h4 class="f-light">College Meetup</h4>
+								<p class="mb-0">
+									<i class="fa fa-map-marker"></i> New york, USA | 1256 Attendees
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card-body p-3">
+				<p class="f-sm text-secondary">Bootstrap template design is HTML
+					template based on Bootstrap 4 framework. This html template can be
+					used in various business domains like Manufacturing, inventory, IT,
+					administration etc.</p>
+			</div>
+			<div class="card-footer text-right border-0">
+				<img src="assets/img/logo_full_black.png" alt=""
+					class="float-left">
+				<button type="button" class="btn btn-success">Join Now!</button>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-md-6 col-lg-4">
+		<div class="card rounded-0 border-0 mb-4">
+			<div class="w-100 ">
+				<figure class="m-0 w-100">
+					<img src="assets/img/event3.png" alt="user image">
+				</figure>
+			</div>
+			<div class="card-header gradient-danger">
+				<div class="row m-0">
+					<div class="">
+						<div class="media">
+							<div class="media-body">
+								<h4 class="f-light">25</h4>
+								<p class="mb-0">Mar</p>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="media">
+							<div class="media-body">
+								<h4 class="f-light">College Meetup</h4>
+								<p class="mb-0">
+									<i class="fa fa-map-marker"></i> New york, USA | 1256 Attendees
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card-body p-3">
+				<p class="f-sm text-secondary">Bootstrap template design is HTML
+					template based on Bootstrap 4 framework. This html template can be
+					used in various business domains like Manufacturing, inventory, IT,
+					administration etc.</p>
+			</div>
+			<div class="card-footer text-right border-0">
+				<img src="assets/img/logo_full_black.png" alt=""
+					class="float-left">
+				<button type="button" class="btn btn-success">Join Now!</button>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div class="card rounded-0 border-0 mb-4">
+			<div class="card-body p-3">
+				<div class="media">
+					<div class="icon">
+						<i class="fa fa-file-pdf-o text-danger"></i>
+					</div>
+					<div class="media-body">
+						<p class="mb-0">Document.pdf</p>
+						<small>21.6 MB</small>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div class="card rounded-0 border-0 mb-4">
+			<div class="card-body p-3">
+				<div class="media">
+					<div class="icon">
+						<i class="fa fa-file-word-o text-primary"></i>
+					</div>
+					<div class="media-body">
+						<p class="mb-0">Document.docx</p>
+						<small>21.6 MB</small>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div class="card rounded-0 border-0 mb-4">
+			<div class="card-body p-3">
+				<div class="media">
+					<div class="icon">
+						<i class="fa fa-file-excel-o text-success"></i>
+					</div>
+					<div class="media-body">
+						<p class="mb-0">Document.xls</p>
+						<small>21.6 MB</small>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div class="card rounded-0 border-0 mb-4">
+			<div class="card-body p-3">
+				<div class="media">
+					<div class="icon">
+						<i class="fa fa-file-audio-o text-warning"></i>
+					</div>
+					<div class="media-body">
+						<p class="mb-0">songs.mp3</p>
+						<small>21.6 MB</small>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>

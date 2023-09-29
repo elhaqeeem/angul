@@ -1,0 +1,70 @@
+
+<div class="userlist_large bg-dark">
+	<figure class="background">
+		<img src="assets/img/user1.png" alt="user image">
+	</figure>
+	<div class="media">
+		<figure class="avatar120 rounded-circle z3 m-auto">
+			<img src="assets/img/user1.png" alt="user image">
+		</figure>
+		<div class="media-body">
+			<h5 class="mt-0">Maxartkiller</h5>
+			<p>New Jersey, UK</p>
+			<div class="nav-item dropdown" ngbDropdown>
+				<button class="btn btn-link rounded-0 dropdown-toggle "
+					ngbDropdownToggle>
+					<span class="fa fa-angle-down"></span>
+				</button>
+				<div class="dropdown-menu dropdown-menu-center" ngbDropdownMenu>
+					<a class="dropdown-item" href="#">Action</a> <a
+						class="dropdown-item" href="#">Another action</a> <a
+						class="dropdown-item" href="#">Something else here</a>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<ul class="nav flex-column">
+	<li class="title-nav">MENU</li>
+	<li class="nav-item "><a routerLink="/dashboard"
+		[routerLinkActive]="['active']"> <i
+			class="fa fa-fw fa-dashboard"></i>&nbsp;{{ 'Dashboard' | translate }}
+	</a></li>
+	<li class="nav-item "><a [routerLink]="['/charts']"
+		[routerLinkActive]="['active']"> <i
+			class="fa fa-fw fa-bar-chart-o"></i>&nbsp;{{ 'Charts' | translate }}
+	</a></li>
+	<li class="nav-item "><a [routerLink]="['/tables']"
+		[routerLinkActive]="['active']"> <i
+			class="fa fa-fw fa-table"></i>&nbsp;{{ 'Tables' | translate }}
+	</a></li>
+	<li class="nav-item "><a [routerLink]="['/forms']"
+		[routerLinkActive]="['active']"> <i
+			class="fa fa-fw fa-edit"></i>&nbsp;{{ 'Forms' | translate }}
+	</a></li>
+	<li class="nav-item "><a [routerLink]="['/bs-element']"
+		[routerLinkActive]="['active']"> <i
+			class="fa fa-fw fa-desktop"></i>&nbsp;{{ 'Bootstrap Element' |
+			translate }}
+	</a></li>
+	<li class="nav-item "><a [routerLink]="['/grid']"
+		[routerLinkActive]="['active']"> <i
+			class="fa fa-fw fa-wrench"></i>&nbsp;{{ 'Bootstrap Grid' | translate
+			}}
+	</a></li>
+	<li class="nav-item " >
+	<a [routerLink]="['/bs-components']"	[routerLinkActive]="['active']"> <i	class="fa fa-th-list"></i>&nbsp;{{ 'Component' | translate }}</a></li>
+	<li class="nav-item" [class.show]="showMenu === 'pages'">
+		<a  (click)="addExpandClass('pages')" class="menudropdown"> <span><i class="fa fa-plus"></i>&nbsp; {{ 'Menu' | translate }}</span></a>
+		<ul class="submenu nav" [class.d-block]="showMenu === 'pages'">
+			<li><a href="javascript:void(0)"><span>{{ 'Submenu' | translate }}</span></a></li>
+			<li><a href="javascript:void(0)"><span>{{ 'Submenu' | translate }}</span></a></li>
+			<li><a href="javascript:void(0)"><span>{{ 'Submenu' | translate }}</span></a></li>
+		</ul>
+	</li>
+	<li class="nav-item "><a [routerLink]="['/blank-page']"	[routerLinkActive]="['active']"> 
+		<i class="fa fa-file-o"></i>&nbsp;{{ 'Blank Page' | translate }}
+	</a></li>
+</ul>

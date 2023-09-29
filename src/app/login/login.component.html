@@ -1,0 +1,53 @@
+<div class="background bg-dark">
+			<img  src="../assets/img/bg-modern-wide.png" alt="" class="full-opacity">
+		</div>
+		<div class="wrapper">
+			<!-- main container starts -->
+			<div class="main-container">
+				<!-- Begin page content -->
+				<div class="container">
+					<div class="card rounded-2 border-0 mb-4 z3 signin-block">
+						<div class="card-body pr-5 pl-5">
+							<h1 class="display-4 text-center d-block">Sign in</h1>
+							<br>
+							<div class="form-group text-left">
+								<label>Email address</label>
+								<input type="email" class="form-control"  ng-model="name" >								
+  							</div>
+							<div class="form-group text-left">
+								<label>Password</label>
+								<input type="password" class="form-control">
+  							</div>
+							<div class="custom-control custom-checkbox">
+								<input type="checkbox" class="custom-control-input" id="customCheck1">
+								<label class="custom-control-label" for="customCheck1"> Remember Me</label>
+							</div>
+							<br>
+							<div>
+								<a class="btn btn-primary btn-block col"  [routerLink]="['/dashboard']" (click)="onLoggedin()">Login</a>
+								<br>
+							</div>
+							<div class="text-left">
+								<a href="" class="">Forgot Password?</a>
+								<a [routerLink]="['/signup']" class="float-right">Sign up Now!</a>
+							</div>
+						</div>
+					</div>					
+				</div>
+			</div>
+			<!-- main container ends -->
+		</div>
+		
+		<!-- footer starts -->
+		<footer class="footer bg-dark" style="position:relative; z-index: 4">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-12 col-md-6">This template is designed with <i class="text-danger fa fa-heart"></i> by <a href="http://www.maxartkiller.in" target="_blank" class="">www.maxartkiller.in</a> <img src="assets/img/flag.png" alt="India"></div>
+					<div class="col-12 col-md-6 text-right"><a target="_blank" class="">Privacy Policy</a> | <a target="_blank" class="">Terms of use</a></div>
+				</div>
+			</div>
+		</footer>
+		<!-- footer ends -->
+		
+		
+	

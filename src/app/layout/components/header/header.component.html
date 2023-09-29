@@ -1,0 +1,76 @@
+<!-- header starts -->
+			<header class="z2 header">
+				<!-- Fixed navbar -->
+				<nav class="navbar navbar-expand-sm ">
+					<a class="navbar-brand" href="#">
+						<img src="assets/img/logo.png" alt="">
+						<h5 class="text-uppercase visible-md"><span>Bootstrap</span><small>Template  <i class="fa fa-circle text-danger"></i>  Design</small></h5>
+					</a>
+					<button class="btn btn-link menu-btn sq-btn rounded-0 border-right " type="button" id="sidebar-left" (click)="toggleSidebar()">
+						<span class="fa fa-bars"></span>
+					</button>
+					
+					<div class="d-flex col p-0" id="navbarCollapse">
+						  
+						<form class="form-inline search-form ml-auto border-left">
+							<input class="form-control " type="text" placeholder="{{ 'Search' | translate }}" aria-label="Search">
+							<button class="btn btn-link text-secondary search-btn" type="button" ><i class="fa fa-search"></i></button>
+							<button class="btn btn-link text-secondary search-close-btn" type="button" ><i class="fa fa-close"></i></button>
+						</form>
+						<div class="d-block border-left">
+							 <div class="nav-item dropdown" ngbDropdown>
+				                <button class="btn btn-link sq-btn menu-btn " ngbDropdownToggle>
+				                    <i class="fa fa-2x fa-language"></i>
+				                </button>
+				                <div class="dropdown-menu-right" ngbDropdownMenu>
+				                    <a class="dropdown-item" href="javascript:void(0)" (click)="changeLang('en')">
+				                    English
+				                    </a>
+				                    <a class="dropdown-item" href="javascript:void(0)" (click)="changeLang('fr')">
+				                     French
+				                    </a>
+				                    <a class="dropdown-item" href="javascript:void(0)" (click)="changeLang('ur')">
+				                      Urdu
+				                    </a>
+				                    <a class="dropdown-item" href="javascript:void(0)" (click)="changeLang('es')">
+				                      Spanish
+				                    </a>
+				                    <a class="dropdown-item" href="javascript:void(0)" (click)="changeLang('it')">
+				                   		Italian
+				                    </a>
+				                    <a class="dropdown-item" href="javascript:void(0)" (click)="changeLang('fa')">
+				               		  	Farsi
+				                    </a>
+				                    <a class="dropdown-item" href="javascript:void(0)" (click)="changeLang('de')">
+				                    	German
+				                    </a>
+				                    <a class="dropdown-item" href="javascript:void(0)" (click)="changeLang('zh-CHS')">
+				                      	Simplified Chinese
+				                    </a>
+				                </div>
+				            </div>
+						</div>
+						<div class="d-block border-left">	
+							<div class="dropdown float-left" ngbDropdown>
+									<a href="#" class="btn btn-link text-dark user-profile">
+										<figure class="avatar30 rounded-circle z3"><img src="assets/img/user1.png" alt=""></figure>
+										<div class="h5 d-inline-block"><small>Welcome,</small><span>Maxartkiller</span></div>
+									</a>
+				                <button class="btn btn-secondary sq-btn rounded-0 dropdown-toggle float-right" ngbDropdownToggle>
+				                    <span class="fa fa-angle-down"></span>
+				                </button>
+				                <div class="dropdown-menu dropdown-menu-right" ngbDropdownMenu>
+				                	<a class="dropdown-item" href="#">Profile</a>
+									<a class="dropdown-item" href="#">Setting</a>
+									<a class="dropdown-item" [routerLink]="['/login']" (click)="onLoggedout()"> {{ 'Log Out' | translate }}</a>
+				                </div>
+				            </div>						
+													
+							<button class="btn btn-primary sq-btn border-0 rounded-0 active" type="button" id="sidebar-right" (click)="toggleRightSidebar()">
+								<span class="icon fa fa-angle-double-left"></span>
+							</button>
+						</div>
+					</div>
+				</nav>
+			</header>
+			<!-- header ends -->

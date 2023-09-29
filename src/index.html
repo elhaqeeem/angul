@@ -1,0 +1,63 @@
+<!doctype html>
+    <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Bootstrap Template Design Angular5 BS4</title>
+        <base href="/">
+		
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        
+        <style type="text/css">
+        	.gradient-warning {
+			    background-image: -moz-linear-gradient(45deg, #ff7b03, #ffd649);
+			    background-image: -webkit-gradient(45deg, linear, 0% 0%, 0% 100%, from(#ff7b03), to(#ffd649));
+			    background-image: -webkit-linear-gradient(45deg, #ff7b03, #ffd649);
+			    background-image: -o-linear-gradient(45deg, #ff7b03, #ffd649);
+			}
+			.gradient-success {
+			    background-image: -moz-linear-gradient(45deg, #0097ac, #40f1c8);
+			    background-image: -webkit-gradient(45deg, linear, 0% 0%, 0% 100%, from(#0097ac), to(#40f1c8));
+			    background-image: -webkit-linear-gradient(45deg, #0097ac, #40f1c8);
+			    background-image: -o-linear-gradient(45deg, #0097ac, #40f1c8);
+			}
+			.gradient-danger {
+			    background-image: -moz-linear-gradient(45deg, #a10256, #f85a35);
+			    background-image: -webkit-gradient(45deg, linear, 0% 0%, 0% 100%, from(#a10256), to(#f85a35));
+			    background-image: -webkit-linear-gradient(45deg, #a10256, #f85a35);
+			    background-image: -o-linear-gradient(45deg, #a10256, #f85a35);
+			}
+			.gradient-primary {
+			    background-image: -moz-linear-gradient(45deg, #5886ff, #8de9ff);
+			    background-image: -webkit-gradient(45deg, linear, 0% 0%, 0% 100%, from(#5886ff), to(#8de9ff));
+			    background-image: -webkit-linear-gradient(45deg, #5886ff, #8de9ff);
+			    background-image: -o-linear-gradient(45deg, #5886ff, #8de9ff);
+			}
+			.gradient-secondary {
+			    background-image: -moz-linear-gradient(45deg, #8596ae, #a2c2ef);
+			    background-image: -webkit-gradient(45deg, linear, 0% 0%, 0% 100%, from(#8596ae), to(#a2c2ef));
+			    background-image: -webkit-linear-gradient(45deg, #8596ae, #a2c2ef);
+			    background-image: -o-linear-gradient(45deg, #8596ae, #a2c2ef);
+			}
+		    .loader-logo{ height: 100%; width: 100%; top: 0; left: 0; background: rgba(255, 255, 255, 0.9); display: block; position: fixed; z-index: 1900; text-align: center;}
+	        .loader-logo img{ height: 100px; width: 100px; margin: 0 auto; margin-top: 20%; }
+	        .lds-ellipsis {  display: inline-block;position: relative; width: 64px;  height: 64px;}
+	        .lds-ellipsis div { position: absolute; top: 27px; width: 11px; height: 11px; border-radius: 50%; animation-timing-function: cubic-bezier(0, 1, 1, 0); background: #da1d5b; }
+	        .lds-ellipsis div:nth-child(1) { left: 6px; animation: lds-ellipsis1 0.6s infinite;}
+	        .lds-ellipsis div:nth-child(2) { left: 6px;  animation: lds-ellipsis2 0.6s infinite;}
+	        .lds-ellipsis div:nth-child(3) { left: 26px;  animation: lds-ellipsis2 0.6s infinite;}
+	        .lds-ellipsis div:nth-child(4) { left: 45px;  animation: lds-ellipsis3 0.6s infinite;}
+	        @keyframes lds-ellipsis1 {0% { transform: scale(0);  } 100% { transform: scale(1);  }}
+	        @keyframes lds-ellipsis3 {0% { transform: scale(1);  }  100% { transform: scale(0);  }}
+	        @keyframes lds-ellipsis2 {0% { transform: translate(0, 0);  } 100% { transform: translate(19px, 0);  }}
+        </style>
+    </head>
+    <body class="menuleft-open fixed-header menuright-open">
+        <app-root>
+           <div class="loader-logo">
+	        <img src="assets/img/logo.png " alt="bootstrap template design by maxartkiller"><br>
+	        <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+	    </div>
+        </app-root>
+    </body>
+</html>
